@@ -106,3 +106,44 @@ button {
     font-size: 32px;
     font-weight: 400;
 }
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .container__contenido {
+        position: static;
+        margin-top: 2rem;
+    }
+
+    .container__informaciones {
+        padding: 1.5rem;
+    }
+
+    .container__boton {
+        width: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .texto__parrafo {
+        font-size: 20px;
+    }
+}
+
+/* Estilos adicionales para dispositivos móviles o tamaños de pantalla específicos */
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .texto__parrafo {
+        font-size: 18px;
+    }
+}
+
