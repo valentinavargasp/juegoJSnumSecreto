@@ -29,6 +29,7 @@ body {
         radial-gradient(circle at 50% 50%,
             #2f3040,
             #1f2020);
+            overflow: hidden;
 }
 .container {
     width: 1200px;
@@ -37,6 +38,7 @@ body {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    overflow: hidden;
 }
 .container__contenido {
     display: flex;
@@ -52,7 +54,7 @@ body {
 
 .container__boton {
     border-radius: 16px;
-    background: #1875E8;
+    background: #062142c8;
     padding: 16px 24px;
     width: 100%;
     font-size: 24px;
@@ -70,7 +72,7 @@ body {
 }
 
 .container__texto-azul {
-    color: #1875E8;
+    color: #081d38;
 }
 
 .container__input {
@@ -79,7 +81,7 @@ body {
     border-radius: 16px;
     background-color: #FFF;
     border: none;
-    color: #1875E8;
+    color: #0a213c;
     padding: 2rem;
     font-size: 24px;
     font-weight: 700;
